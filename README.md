@@ -65,17 +65,44 @@ Pengembangan dari tugas no. 6, yaitu dengan menambah sebuah variabel hitungan ya
 Pengembangan dari tugas no. 6, yaitu dengan mengubah kondisi LED agar menyala secara bergantian hingga satu rotasi penuh saat dibawah nilai treshold dan mematikan seluruh LED saat lebih tinggi dari treshold.
 ![](https://user-images.githubusercontent.com/49542850/206910407-c9387493-d962-4701-8f93-8dfe24f04473.mp4)
 
-## Percobaan A. Capacitive Touch Sensor
+## Percobaan B. Sensor DHT
 ### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
 2. Buat rangkaian berikut.
-![](https://camo.githubusercontent.com/aeb8b907f26bfb37d2f21b09f8a41f684a1bc1096c1a1041af71357f6c697b2a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313434313135343130323637333436392f422e5f52616e676b6169616e5f4448542e706e67)
+<img src="https://camo.githubusercontent.com/aeb8b907f26bfb37d2f21b09f8a41f684a1bc1096c1a1041af71357f6c697b2a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313434313135343130323637333436392f422e5f52616e676b6169616e5f4448542e706e67" width=425px>
+3. Download dan jalankan kode dari source code sesuai project.
+4. Pastikan library DHT dan Adafruit sudah terinstal.
 
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
-<img src="" width=425px>
+### Keluaran
+![](https://camo.githubusercontent.com/2a5474866f3fce1ce376e1b9268ff3c6122821d748226be2591b290ff7e9073a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313434313830383534383330323838382f422e5f53656e736f725f4448542e706e67)
+
+### Tugas B No. 4
+1. Dibawah 30 celcius
+
+![](https://user-images.githubusercontent.com/49542850/206898685-5073100e-5814-4451-b6bf-74e835e68ad8.mp4)
+
+3. Diatas 30 celcius
+
+![](https://user-images.githubusercontent.com/49542850/206898713-3ffcd6a4-ea9f-4853-8dfc-1a232c3f6ccf.mp4)
+
+## Percobaan C. Sensor DHT
+### Rangkaian & Instalasi
+1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
+2. Buat rangkaian berikut.
+<img src="https://camo.githubusercontent.com/d2042014bf4b3666de9acd0d3d28ba5912d03793b2e5a5dac924f3d830793142/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313530343739363635353433313832302f432e5f52616e676b6169616e5f524649442e706e67" width=425px>
+3. Download dan jalankan kode dari source code sesuai project.
+4. Pastikan library MFRC522 sudah terinstal.
+
+### Keluaran
+![](https://camo.githubusercontent.com/3ef08546295d0b34447b17d33d886a60057f21a0e79b487fcc6e662b1ed5d188/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313530343833363031343738343532322f432e5f524649442e706e67)
+
+![](https://user-images.githubusercontent.com/49542850/206910208-4912f5ef-f3ea-4ebc-94e4-2878b3abd4db.mp4)
+
+### Tugas C No. 5
+1. Buat rangkaian berikut.
+<img src="https://camo.githubusercontent.com/0f11583d6a2b18b9bd4f288f7ece2b5aac882959d6a2c66234bbf945599dfda6/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313530343739373038373433363932312f432e5f52616e676b6169616e5f524649445f5475676173312e706e67" width=425px>
+2. Pastikan library servo sudah terinstal.
+Setelah identitas kartu RFID didapatkan pada percobaan sebelumnya, maka address dimasukan pada kode sebagai address yang diterima sedangkan address lain akan ditolak. Sehingga didapatkan perkondisian baru. Pada perkondisian ini juga diberikan input LED dan servo.
+
+Saat kartu RFID yang benar dibaca sensor, maka servo akan berputar dan LED menyala hijau. Sebaliknya hanya akan memberikan LED berwarna merah.
+![](https://user-images.githubusercontent.com/49542850/206910214-d9e4f235-cc73-4322-b5b0-337dbce9be23.mp4)
