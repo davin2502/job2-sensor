@@ -101,8 +101,8 @@ Pengembangan dari tugas no. 6, yaitu dengan mengubah kondisi LED agar menyala se
 ### Tugas C No. 5
 1. Buat rangkaian berikut.
 <img src="https://camo.githubusercontent.com/0f11583d6a2b18b9bd4f288f7ece2b5aac882959d6a2c66234bbf945599dfda6/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313530343739373038373433363932312f432e5f52616e676b6169616e5f524649445f5475676173312e706e67" width=425px>
+
 2. Pastikan library servo sudah terinstal.
 Setelah identitas kartu RFID didapatkan pada percobaan sebelumnya, maka address dimasukan pada kode sebagai address yang diterima sedangkan address lain akan ditolak. Sehingga didapatkan perkondisian baru. Pada perkondisian ini juga diberikan input LED dan servo.
-
 Saat kartu RFID yang benar dibaca sensor, maka servo akan berputar dan LED menyala hijau. Sebaliknya hanya akan memberikan LED berwarna merah.
 ![](https://user-images.githubusercontent.com/49542850/206910214-d9e4f235-cc73-4322-b5b0-337dbce9be23.mp4)
