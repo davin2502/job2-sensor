@@ -55,7 +55,7 @@ Berdasarkan nilai treshold yang sudah didapatkan yaitu sekitar 25-30, maka pada 
 
 ### Tugas A No. 7
 Pengembangan dari tugas no. 6, hasil dari LED menyala diubah menjadi blink setiap beberapa ms.
-![](https://user-images.githubusercontent.com/49542850/206910395-0c2a6532-19ca-4c8f-b5c4-7f695f1133f3.mp4)
+![](https://user-images.githubusercontent.com/49542850/206910388-c3ed11f1-e69b-497a-b94f-da8c62d86bd3.mp4)
 
 ### Tugas A No. 8
 Pengembangan dari tugas no. 6, yaitu dengan menambah sebuah variabel hitungan yang akan ditambahkan 1 setiap nilai dibawah treshold.
