@@ -65,6 +65,12 @@ Pengembangan dari tugas no. 6, yaitu dengan menambah sebuah variabel hitungan ya
 Pengembangan dari tugas no. 6, yaitu dengan mengubah kondisi LED agar menyala secara bergantian hingga satu rotasi penuh saat dibawah nilai treshold dan mematikan seluruh LED saat lebih tinggi dari treshold.
 ![](https://user-images.githubusercontent.com/49542850/206910407-c9387493-d962-4701-8f93-8dfe24f04473.mp4)
 
+## Percobaan A. Capacitive Touch Sensor
+### Rangkaian & Instalasi
+1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
+2. Buat rangkaian berikut.
+![](https://camo.githubusercontent.com/aeb8b907f26bfb37d2f21b09f8a41f684a1bc1096c1a1041af71357f6c697b2a/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313434313135343130323637333436392f422e5f52616e676b6169616e5f4448542e706e67)
+
 <img src="" width=425px>
 <img src="" width=425px>
 <img src="" width=425px>
