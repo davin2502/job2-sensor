@@ -48,6 +48,23 @@
 
 ### Keluaran
 ![](https://camo.githubusercontent.com/ed0e554077d8180b6ae31a33ba1583ae1aaaa447129d0dbde0a2b20aaadecc34/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313433353038393036373737383037382f412e5f436170616369746976655f546f7563682e706e67)
+
+### Tugas A No. 6
+Berdasarkan nilai treshold yang sudah didapatkan yaitu sekitar 25-30, maka pada program dibuat perkondisian jika nilai dibawah treshold maka LED akan menyala dan sebaliknya.
+![](https://user-images.githubusercontent.com/49542850/206910388-c3ed11f1-e69b-497a-b94f-da8c62d86bd3.mp4)
+
+### Tugas A No. 7
+Pengembangan dari tugas no. 6, hasil dari LED menyala diubah menjadi blink setiap beberapa ms.
+![](https://user-images.githubusercontent.com/49542850/206910395-0c2a6532-19ca-4c8f-b5c4-7f695f1133f3.mp4)
+
+### Tugas A No. 8
+Pengembangan dari tugas no. 6, yaitu dengan menambah sebuah variabel hitungan yang akan ditambahkan 1 setiap nilai dibawah treshold.
+![](https://camo.githubusercontent.com/361ae5a6f65d9267c68fb2c92137ccd90db708df8da8f160f601270dcf9ab83f/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313433383733333632383534373038332f412e5f436170616369746976655f546f7563685f5475676173332e706e67)
+
+### Tugas A No. 9
+Pengembangan dari tugas no. 6, yaitu dengan mengubah kondisi LED agar menyala secara bergantian hingga satu rotasi penuh saat dibawah nilai treshold dan mematikan seluruh LED saat lebih tinggi dari treshold.
+![](https://user-images.githubusercontent.com/49542850/206910407-c9387493-d962-4701-8f93-8dfe24f04473.mp4)
+
 <img src="" width=425px>
 <img src="" width=425px>
 <img src="" width=425px>
