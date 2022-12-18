@@ -39,9 +39,11 @@
 3. Cari MFRC522 by GithubCommunity. Kemudian instal.
 
 ## Percobaan A. Capacitive Touch Sensor
-###Rangkaian & Instalasi
+### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
 2. Buat rangkaian berikut.
+<img src="https://camo.githubusercontent.com/80e68355e9112a2565e5dcd3c21c4e5e9901ad2f16e4d3a53a6b6128e84e1018/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313433323330363734323636313138302f412e5f52616e676b6169616e5f436170616369746976655f546f7563682e706e67" width=425px>
+
 ![](https://camo.githubusercontent.com/80e68355e9112a2565e5dcd3c21c4e5e9901ad2f16e4d3a53a6b6128e84e1018/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313433323330363734323636313138302f412e5f52616e676b6169616e5f436170616369746976655f546f7563682e706e67)
 3. Download dan jalankan kode dari source code sesuai project.
 4. Buka serial monitor untuk melihat raw data. Ubah tampilan serial monitor menjadi Serial Plotter pada menu Tools > Serial Plotter untuk menampilkan grafik.
