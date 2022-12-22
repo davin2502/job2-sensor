@@ -65,6 +65,8 @@ Pengembangan dari tugas no. 6, yaitu dengan menambah sebuah variabel hitungan ya
 Pengembangan dari tugas no. 6, yaitu dengan mengubah kondisi LED agar menyala secara bergantian hingga satu rotasi penuh saat dibawah nilai treshold dan mematikan seluruh LED saat lebih tinggi dari treshold.
 ![](https://user-images.githubusercontent.com/49542850/206910407-c9387493-d962-4701-8f93-8dfe24f04473.mp4)
 
+https://user-images.githubusercontent.com/118702169/209097447-11905597-3096-4ebe-a3c1-88b167ae3c08.mp4
+
 ## Percobaan B. Sensor DHT
 ### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
