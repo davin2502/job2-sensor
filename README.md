@@ -92,7 +92,7 @@ https://user-images.githubusercontent.com/118702169/210024219-6dc0e542-d297-4131
 
 https://user-images.githubusercontent.com/118702169/210024233-fa20acd9-7f96-4069-bd78-a411c29c1a12.mp4
 
-## Percobaan C. Sensor DHT
+## Percobaan C. Sensor RFID
 ### Rangkaian & Instalasi
 1. Siapkan ESP32 dan hubungkan ke Arduino IDE.
 2. Buat rangkaian berikut.
@@ -103,6 +103,8 @@ https://user-images.githubusercontent.com/118702169/210024233-fa20acd9-7f96-4069
 4. Pastikan library MFRC522 sudah terinstal.
 
 ### Keluaran
+
+<img src="https://camo.githubusercontent.com/3ef08546295d0b34447b17d33d886a60057f21a0e79b487fcc6e662b1ed5d188/68747470733a2f2f63646e2e646973636f72646170702e636f6d2f6174746163686d656e74732f313034333436323531393333363939363839342f313035313530343833363031343738343532322f432e5f524649442e706e67" width=600px>
 
 https://user-images.githubusercontent.com/118702169/210024253-8ec60746-d690-4aa3-a180-d123b86ff05a.mp4
 
