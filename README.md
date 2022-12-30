@@ -117,3 +117,12 @@ Setelah identitas kartu RFID didapatkan pada percobaan sebelumnya, maka address 
 Saat kartu RFID yang benar dibaca sensor, maka servo akan berputar dan LED menyala hijau. Sebaliknya hanya akan memberikan LED berwarna merah.
 
 https://user-images.githubusercontent.com/118702169/210024259-7120e755-6f77-4210-9e15-8f378b01b8e2.mp4
+
+## Kesimpulan
+   - ESP32 kompatibel dengan beberapa sensor seperti DHT dan RFID serta penggerak seperti servo. Akan tetapi, beberapa alat memerlukan library atau tool yang berbeda dengan arduino dan tidak kompatibel dengan ESP. Sehingga perlu melakukan import eksternal.
+   - Beberapa pin ESP32 dapat mengukur nilai kapasitif dari pin tersebut. Sehingga dapat diperlakukan seperti touch sensor. Contoh pin yang dimaksud untuk ESP32 v1 adalah pin 21, 22, 24, 12, 13, 16, 17, 18, dan 20.
+   - Sensor DHT mampu mengukur suhu dan kelembaban ruangan dan dapat divariasi menjadi satuan celcius maupun farenheit untuk suhunya. Serta terdapat heat index.
+   - Sensor RFID mampu membaca chip atau lempengan yang terdapat pada kartu RFID atau pin dan lain sebagainya untuk diterjemahkan menjadi address/alamat. Address tiap kartu bersifat unik dan jarang ada kesamaan, address difungsikan seperti Mac pada perangkat jaringan.
+   - Address pada kartu RFID dapat digunakan sebagai identifier kartu sehingga dapat memilah kartu yang akan diberikan akses dan ditolak.
+   - Sistem RFID juga digunakan pada e-KTP dan e-Toll namun dengan frekuensi yang berbeda.
+   - Perangkat servo dapat bergerak porosnya sejauh 180°. Poros harus digerakan sudut demi sudut.
