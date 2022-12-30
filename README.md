@@ -1,3 +1,5 @@
+Davin Marselon/4.31.20.1.07/TE-3B
+
 # Job 2 Protokol Komunikasi dan Sensor (Capacitive Touch, Sensor DHT, dan Sensor RFID)
 
 ## Alat dan Bahan
